@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71e3869ef9892604cac5c164775697d9, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: -1719908007, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -1700057458, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: 786705833, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -1891986876, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -1623374074, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -842622483, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -998453698, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  minHeight: 0
+  minMoisture: 0.8
+  minHeat: 0

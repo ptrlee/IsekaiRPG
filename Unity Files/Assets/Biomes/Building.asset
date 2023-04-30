@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71e3869ef9892604cac5c164775697d9, type: 3}
+  m_Name: Building
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 453442070, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: 1588051437, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -897410362, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -1912811282, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: 1807345754, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -128207506, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  minHeight: 0.5
+  minMoisture: 0
+  minHeat: 0.7
