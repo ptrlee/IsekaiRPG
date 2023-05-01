@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: Building
   m_EditorClassIdentifier: 
   tiles:
-  - {fileID: 453442070, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
-  - {fileID: 1588051437, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
-  - {fileID: -897410362, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
-  - {fileID: -1912811282, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
-  - {fileID: 1807345754, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
-  - {fileID: -128207506, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -1144318596, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -1414351291, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -589249431, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: 1385433093, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -33560633, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -1915454534, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: 902686896, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: -1903359848, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
+  - {fileID: 1847685022, guid: 039acf5893e0f6143bea29844ed2c287, type: 3}
   minHeight: 0.5
   minMoisture: 0
   minHeat: 0.7

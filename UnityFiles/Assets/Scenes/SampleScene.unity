@@ -160,7 +160,7 @@ MonoBehaviour:
   tilePrefab: {fileID: 8529233166114186257, guid: 359fc1d8aeabe4e418ce73a803016211, type: 3}
   width: 500
   height: 500
-  scale: 1
+  scale: 3
   offset: {x: 1322, y: 32131}
   heightWaves:
   - seed: 56
@@ -306,7 +306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 5, y: 10, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

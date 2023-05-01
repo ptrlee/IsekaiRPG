@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -36,9 +37,9 @@ public class Map : MonoBehaviour
         moistureMap = NoiseGenerator.Generate(width, height, scale, moistureWaves, offset);
         // heat map
         heatMap = NoiseGenerator.Generate(width, height, scale, heatWaves, offset);
-        for(int x = 0; x < width; ++x)
+        for(int x = 0; x < width; x+=4)
         {
-            for(int y = 0; y < height; ++y)
+            for(int y = 0; y < height; y+=4)
             {
                // Debug.Log("Height Map: " + heightMap[x, y]);
                 GameObject tile = Instantiate(tilePrefab, new Vector3(x, y, 0), Quaternion.identity);
@@ -86,12 +87,21 @@ public class Map : MonoBehaviour
     void Start()
     {
         GenerateMap();
+        loopPrefabs();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void loopPrefabs() {
+        GameObject[] gameObjects = GameObject.FindGameObjectsWithTag("prefab");
+        foreach (GameObject gameObject in gameObjects) {
+            UnityEngine.Debug.Log(gameObject.GetComponent<SpriteRenderer>().sprite.name);
+            UnityEngine.Debug.Log(gameObject.GetComponent<Transform>().position);
+        }
     }
 }
 
