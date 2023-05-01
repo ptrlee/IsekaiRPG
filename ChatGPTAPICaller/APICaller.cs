@@ -25,7 +25,7 @@ namespace ChatGPTDemo
                 Console.WriteLine("You entered: " + userInput); // Prints the user input to the console
 
                 // Replace the following variables with your own values
-                string apiKey = "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";
+                string apiKey = "";
                 string prompt = "Hello, ChatGPT!";
                 messages.Add(
                     new {role = "system", content = userInput});
@@ -74,7 +74,7 @@ namespace ChatGPTDemo
                 Console.WriteLine("You entered: " + prompt); // Prints the user input to the console
 
                 // Replace the following variables with your own values
-                string apiKey = "a1-mDK7hxKvv8PEKT7ZBKPqM3hFjVy1_dfsvdaVPILvPnQnTmjuRXx6PR";
+                string apiKey = "";
                 //"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";
                 string uuid = "mDK7hxKvv8PEKT7ZBKPqM3hFjVy1_a6438b96-ad19-4a66-abde-4e65d7971a7a";
                 int numImages = 1;
